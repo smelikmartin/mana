@@ -90,6 +90,7 @@ class QrServerApiQrCode extends \Nette\Object implements IQrCodeProvider
 		}
 		$this->size = (int)$size;
 	}
+
 	/**
 	 * @return int 
 	 */
