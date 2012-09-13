@@ -32,7 +32,7 @@ class QrCodeComponent extends \Nette\Application\UI\Control
 		if ($size != NULL) {
 			$this->qrCodeProvider->size = $size;
 		}
-
+		
 		echo Html::el("img", array(
 			'src' => $this->qrCodeProvider->getImageUrl($stringToEncode),
 			'title' => $stringToEncode,
